@@ -1,8 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -46,10 +41,21 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/*homepage*/
+
+/*homepage---------------------------------------------------------------------*/
 .indexpage {
-background-image: url("../img/road2hire.png");
+background-image: url("../img/r2hlogo.jpeg");
 }
+.header{
+	font-size: 80px;
+	text-align: center;
+	font-family: 'Satisfy', cursive;
+	color: 	#FF4500;
+	margin-top: 200px;
+	line-height: 40px;
+	text-shadow: 2px 2px yellow;
+}
+/*navbar-------------------------------------------------------------------*/
 .navbar li{
   text-decoration: none;
   display: inline;
@@ -59,17 +65,19 @@ background-image: url("../img/road2hire.png");
   border-radius: 100%;
 	font-size: 20px;
 }
+
 .navbar a{
 	text-decoration: none;
 }
+
 .navbar li:hover{
-  background-color: #FFFF00;
+  background-color: pink;
 }
 
 li.dropdwn{
   display:inline;
 }
-
+/*dropdown menu-----------------------------------------------------------------*/
 li a .dropdown-btn{
   text-decoration: none;
   display: inline-block;
@@ -92,7 +100,7 @@ li a .dropdown-btn{
 }
 
 .dropdwn-content a:hover{
-  background-color: blue;
+  background-color: pink;
 }
 
 .dropdwn:hover .dropdwn-content{
@@ -101,7 +109,7 @@ li a .dropdown-btn{
 }
 
 
-/*Contact page*/
+/*Contact page-----------------------------------------------------------------*/
 .contactpage{
   background-image: url("../img/contact.jpeg");
   background-repeat: no-repeat;
@@ -109,14 +117,18 @@ li a .dropdown-btn{
 }
 
 #form{
-	border: thick black solid;
-	background-color: #FF69B4;
+	background-color: #98FB98;
 	border-radius: 20px;
-	font-family: 'Lobster Two', cursive;
 	font-size: 20px;
-	line-height: 40px;
-	color: black;
-	background: #FF3386;;
+	line-height: 60px;
+	color: pink;
+	margin-top: 130px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 45px;
+	text-align: center;
+}
+input{
+	margin-left: 20px;
 }
 .form-content{
 	margin: 0 auto;
@@ -129,24 +141,53 @@ li a .dropdown-btn{
 }
 
 
-
-
-
-
-
-/*Codepen page*/
+/*Codepen page------------------------------------------------------------------*/
 .codepenpage{
   background-image: url("../img/codepen2.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
+.codepen-content{
+	width: 50%;
+	height: 20%;
+	display: block;
+	padding-top: 90px;
+	background-color: #98FB98;
+	color: white;
+	border-radius: 80px;
+	padding: 30px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	margin-top: 120px;
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+}
+.codepen-icon{
+	width: 20%;
+	height: 20%;
+	border-radius: 80px;
+}
 
-
-
-
-/*table page*/
+/*table page--------------------------------------------------------------------*/
 .tablepage{
   background-image: url("../img/tablepage.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+table{
+	margin: 0 auto;
+	margin-top: 150px;
+  font-family: 'Inconsolata', monospace;
+	color: #98FB98;
+	text-shadow: 2px 2px #FF0000;
+	background-color:rgba(192,192,192,0.8);
+	border-radius: 30px;
+}
+td{
+	padding: 20px;
+}
+th{
+	font-size: 30px;
+	padding-top: 30px;
+	text-decoration: underline;
 }
