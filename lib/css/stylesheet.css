@@ -197,21 +197,3 @@ th{
 	padding-top: 30px;
 	text-decoration: underline;
 }
-@media screen and (max-width: 793px){
-.navbar  li {
-    display: block;
-    padding: 10px;
-    width: 20%;
-		height: 15%;
-		line-height; 10px;
-  }
-}
-	@media screen and (min-width: 500px){
-	.navbar  li {
-	    display: block;
-	    padding: 10px;
-	    width: 20%;
-			height: 15%;
-			line-height; 10px;
-	  }
-}
