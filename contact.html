@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+<head lang="en">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link type="text/css" rel="stylesheet" href="lib/css/stylesheet.css" />
+  <title>Contact Page</title>
+</head>
+<body class="contactpage">
+  <section>
+  <nav>
+    <ul class="navbar">
+      <li class="dropdwn"><a href="#" class="dropdown-btn">Topics</a>
+      <div class="dropdwn-content">
+        <a href="#">Javascript</a>
+        <a href="#">CSS</a>
+        <a href="#">Jquery</a>
+        <a href="#">Html</a>
+      </div>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./codepen.html">Codepen</a></li>
+      <li><a href="./table.html">Table</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+      </div>
+      </li>
+  </ul>
+    </ul>
+  </nav>
+</section>
+<section>
+<div class="form-content">
+      <form id="form" name="form" action="work.php" onsubmit="return validateForm()" method="Get">
+          <div>
+            <label for="fname">First Name<input type="text" id="fname" name="fname" placeholder="First Name"/></label>
+          </div>
+          <div>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" placeholder="Last Name"/>
+          </div>
+          <div>
+            <label for="Company">Company</label>
+            <input type="text" id="Company" name="Company" placeholder="Company"/>
+          </div>
+          <div>
+            <label for="email">Email<input type="email" id="email" name="email" placeholder="Email"/></label>
+          </div>
+          <div>
+            <p>Comments:</p>
+          <textarea placeholder="Please add comments here..." cols="80" rows="10" name="comments" id="Comments"></textarea>
+        </div>
+        <div id="submitbtn">
+         <input type="submit" name="submit" value="Submit"/>
+       </div>
+      </form>
+    </div>
+  </section>
+  <script src="lib/js/javascript.js"></script>
+</body>
+</html>

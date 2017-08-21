@@ -1,0 +1,152 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*homepage*/
+.indexpage {
+background-image: url("../img/road2hire.png");
+}
+.navbar li{
+  text-decoration: none;
+  display: inline;
+  padding: 50px;
+  border: 30px;
+  background-color: orange;
+  border-radius: 100%;
+	font-size: 20px;
+}
+.navbar a{
+	text-decoration: none;
+}
+.navbar li:hover{
+  background-color: #FFFF00;
+}
+
+li.dropdwn{
+  display:inline;
+}
+
+li a .dropdown-btn{
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px 25px;
+}
+
+.dropdwn-content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 60px;
+  box-shadow: 0px 8px 16px 0px grey;
+  text-align: center;
+}
+
+.dropdwn-content a{
+  text-decoration: none;
+  display: block;
+  padding: 30px;
+}
+
+.dropdwn-content a:hover{
+  background-color: blue;
+}
+
+.dropdwn:hover .dropdwn-content{
+  display: block;
+  padding-left:60px;
+}
+
+
+/*Contact page*/
+.contactpage{
+  background-image: url("../img/contact.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#form{
+	border: thick black solid;
+	background-color: #FF69B4;
+	border-radius: 20px;
+	font-family: 'Lobster Two', cursive;
+	font-size: 20px;
+	line-height: 40px;
+	color: black;
+	background: #FF3386;;
+}
+.form-content{
+	margin: 0 auto;
+	width: 50%;
+	height: 50%;
+	margin-top: 25px;
+}
+#submitbtn{
+	text-align: center;
+}
+
+
+
+
+
+
+
+/*Codepen page*/
+.codepenpage{
+  background-image: url("../img/codepen2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+/*table page*/
+.tablepage{
+  background-image: url("../img/tablepage.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
